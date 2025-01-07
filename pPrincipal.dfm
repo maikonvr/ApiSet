@@ -4,7 +4,7 @@ object frmPrincipal: TfrmPrincipal
   BorderIcons = [biMinimize, biMaximize]
   BorderStyle = bsSizeToolWin
   Caption = 'API - Set Sistemas'
-  ClientHeight = 506
+  ClientHeight = 530
   ClientWidth = 869
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -51,7 +51,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object Panel2: TPanel
     Left = 0
-    Top = 455
+    Top = 479
     Width = 869
     Height = 32
     Align = alBottom
@@ -59,6 +59,7 @@ object frmPrincipal: TfrmPrincipal
     Color = 32509
     ParentBackground = False
     TabOrder = 1
+    ExplicitTop = 455
     object pnStatusServidor: TPanel
       AlignWithMargins = True
       Left = 3
@@ -130,7 +131,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 487
+    Top = 511
     Width = 869
     Height = 19
     BorderWidth = 1
@@ -140,6 +141,7 @@ object frmPrincipal: TfrmPrincipal
         Alignment = taRightJustify
         Width = 300
       end>
+    ExplicitTop = 487
   end
   object pnTopInfoSistema: TPanel
     Left = 0

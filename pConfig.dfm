@@ -20,13 +20,11 @@ inherited frmConfig: TfrmConfig
     Top = 17
     Width = 612
     Height = 492
-    ActivePage = tabConfigApi
+    ActivePage = tabConfigSistema
     Align = alClient
     TabOrder = 1
-    ExplicitHeight = 419
     object tabConfigSistema: TTabSheet
       Caption = 'Configura'#231#245'es do Sistema'
-      ExplicitHeight = 391
       object GroupBox1: TGroupBox
         AlignWithMargins = True
         Left = 3
@@ -212,32 +210,31 @@ inherited frmConfig: TfrmConfig
     object tabConfigApi: TTabSheet
       Caption = 'Configura'#231#245'es da Api'
       ImageIndex = 1
-      ExplicitHeight = 391
       object grpConfigApi: TGroupBox
         Left = 0
         Top = 0
         Width = 604
-        Height = 101
+        Height = 83
         Align = alTop
         Caption = ' Configura'#231#245'es do Uso da API '
         TabOrder = 0
         object Label2: TLabel
           Left = 19
-          Top = 32
+          Top = 25
           Width = 83
           Height = 13
           Caption = 'URL Preferencial:'
         end
         object Label3: TLabel
           Left = 19
-          Top = 59
+          Top = 52
           Width = 79
           Height = 13
           Caption = 'URL Alternativa:'
         end
         object edUrlPref: TEdit
           Left = 110
-          Top = 29
+          Top = 22
           Width = 450
           Height = 21
           ParentShowHint = False
@@ -249,7 +246,7 @@ inherited frmConfig: TfrmConfig
         end
         object edUrlAlt: TEdit
           Left = 110
-          Top = 56
+          Top = 49
           Width = 450
           Height = 21
           ParentShowHint = False
@@ -263,9 +260,9 @@ inherited frmConfig: TfrmConfig
       object grpConfigCliente: TGroupBox
         AlignWithMargins = True
         Left = 3
-        Top = 104
+        Top = 86
         Width = 598
-        Height = 85
+        Height = 82
         Align = alTop
         Caption = ' Configura'#231#245'es do Cliente '
         TabOrder = 1
@@ -357,21 +354,19 @@ inherited frmConfig: TfrmConfig
       end
       object grpApiTest: TGroupBox
         Left = 0
-        Top = 192
+        Top = 171
         Width = 604
-        Height = 272
+        Height = 293
         Align = alClient
         Caption = ' Teste da API '
         TabOrder = 2
-        ExplicitLeft = 64
-        ExplicitTop = 232
-        ExplicitWidth = 185
-        ExplicitHeight = 105
+        ExplicitTop = 192
+        ExplicitHeight = 272
         object pnTopTest: TPanel
           Left = 2
           Top = 15
           Width = 600
-          Height = 42
+          Height = 32
           Align = alTop
           BevelOuter = bvNone
           TabOrder = 0
@@ -380,24 +375,23 @@ inherited frmConfig: TfrmConfig
             Left = 3
             Top = 3
             Width = 84
-            Height = 36
+            Height = 26
             Align = alLeft
             Caption = 'Testar Cliente'
             TabOrder = 0
             OnClick = btnTestApiClick
+            ExplicitHeight = 36
           end
         end
         object edTestApi: TMemo
           Left = 2
-          Top = 57
+          Top = 47
           Width = 600
-          Height = 213
+          Height = 244
           Align = alClient
           TabOrder = 1
-          ExplicitLeft = 128
-          ExplicitTop = 128
-          ExplicitWidth = 185
-          ExplicitHeight = 89
+          ExplicitTop = 57
+          ExplicitHeight = 213
         end
       end
     end
